@@ -1,0 +1,30 @@
+digest: 5ecd0fdf
+name: breast_cancer
+profile: '{"num_rows": 0, "num_elements": 0}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "mean radius", "required":
+  true}, {"type": "string", "name": "mean texture", "required": true}, {"type": "string",
+  "name": "mean perimeter", "required": true}, {"type": "string", "name": "mean area",
+  "required": true}, {"type": "string", "name": "mean smoothness", "required": true},
+  {"type": "string", "name": "mean compactness", "required": true}, {"type": "string",
+  "name": "mean concavity", "required": true}, {"type": "string", "name": "mean concave
+  points", "required": true}, {"type": "string", "name": "mean symmetry", "required":
+  true}, {"type": "string", "name": "mean fractal dimension", "required": true}, {"type":
+  "string", "name": "radius error", "required": true}, {"type": "string", "name":
+  "texture error", "required": true}, {"type": "string", "name": "perimeter error",
+  "required": true}, {"type": "string", "name": "area error", "required": true}, {"type":
+  "string", "name": "smoothness error", "required": true}, {"type": "string", "name":
+  "compactness error", "required": true}, {"type": "string", "name": "concavity error",
+  "required": true}, {"type": "string", "name": "concave points error", "required":
+  true}, {"type": "string", "name": "symmetry error", "required": true}, {"type":
+  "string", "name": "fractal dimension error", "required": true}, {"type": "string",
+  "name": "worst radius", "required": true}, {"type": "string", "name": "worst texture",
+  "required": true}, {"type": "string", "name": "worst perimeter", "required": true},
+  {"type": "string", "name": "worst area", "required": true}, {"type": "string", "name":
+  "worst smoothness", "required": true}, {"type": "string", "name": "worst compactness",
+  "required": true}, {"type": "string", "name": "worst concavity", "required": true},
+  {"type": "string", "name": "worst concave points", "required": true}, {"type": "string",
+  "name": "worst symmetry", "required": true}, {"type": "string", "name": "worst fractal
+  dimension", "required": true}]}'
+source: '{"tags": {"mlflow.user": "krasa-35", "mlflow.source.name": "/home/krasa-35/ws/RiSA/WZUM/Project/sandbox.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

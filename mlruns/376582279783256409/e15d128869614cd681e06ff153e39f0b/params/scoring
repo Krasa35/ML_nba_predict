@@ -1,0 +1,14 @@
+{'custom': functools.partial(<function custom_score_func at 0x7ac9766ca020>, record=                      0
+0          Aaron Gordon
+1            Al Horford
+2       Al-Farouq Aminu
+3        Andre Drummond
+4         Anthony Davis
+..                  ...
+426          Trae Young
+427         Tyler Herro
+428   Tyrese Haliburton
+429  Wendell Carter Jr.
+430         Zach LaVine
+
+[431 rows x 1 columns]), 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

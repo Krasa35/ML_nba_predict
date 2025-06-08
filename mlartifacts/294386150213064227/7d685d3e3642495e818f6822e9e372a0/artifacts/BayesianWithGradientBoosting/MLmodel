@@ -1,0 +1,21 @@
+artifact_path: BayesianWithGradientBoosting
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.22.0
+model_size_bytes: 445436
+model_uuid: 221be03527eb4e02bf70c8353233849b
+prompts: null
+run_id: 7d685d3e3642495e818f6822e9e372a0
+utc_time_created: '2025-06-05 21:44:11.552493'

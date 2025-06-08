@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/411372516321915595/bfa7f38586e847528c49c08c9750a3bb/artifacts
+end_time: 1749310902151
+entry_point_name: ''
+experiment_id: '411372516321915595'
+lifecycle_stage: active
+run_id: bfa7f38586e847528c49c08c9750a3bb
+run_name: BayesSearchCV_RandomForest_best_model
+run_uuid: bfa7f38586e847528c49c08c9750a3bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749310898627
+status: 3
+tags: []
+user_id: krasa-35

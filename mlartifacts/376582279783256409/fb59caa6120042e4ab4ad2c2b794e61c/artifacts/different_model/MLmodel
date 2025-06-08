@@ -1,0 +1,52 @@
+artifact_path: different_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 514431
+model_uuid: 6d0d3b5ad05d44c79e138332acf4473f
+prompts: null
+run_id: fb59caa6120042e4ab4ad2c2b794e61c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "AGE", "required": true}, {"type": "double",
+    "name": "GP", "required": true}, {"type": "double", "name": "W", "required": true},
+    {"type": "double", "name": "L", "required": true}, {"type": "double", "name":
+    "W_PCT", "required": true}, {"type": "double", "name": "MIN", "required": true},
+    {"type": "double", "name": "FGM", "required": true}, {"type": "double", "name":
+    "FGA", "required": true}, {"type": "double", "name": "FG_PCT", "required": true},
+    {"type": "double", "name": "FG3M", "required": true}, {"type": "double", "name":
+    "FG3A", "required": true}, {"type": "double", "name": "FG3_PCT", "required": true},
+    {"type": "double", "name": "FTM", "required": true}, {"type": "double", "name":
+    "FTA", "required": true}, {"type": "double", "name": "FT_PCT", "required": true},
+    {"type": "double", "name": "OREB", "required": true}, {"type": "double", "name":
+    "DREB", "required": true}, {"type": "double", "name": "REB", "required": true},
+    {"type": "double", "name": "AST", "required": true}, {"type": "double", "name":
+    "TOV", "required": true}, {"type": "double", "name": "STL", "required": true},
+    {"type": "double", "name": "BLK", "required": true}, {"type": "double", "name":
+    "BLKA", "required": true}, {"type": "double", "name": "PF", "required": true},
+    {"type": "double", "name": "PFD", "required": true}, {"type": "double", "name":
+    "PTS", "required": true}, {"type": "double", "name": "PLUS_MINUS", "required":
+    true}, {"type": "double", "name": "NBA_FANTASY_PTS", "required": true}, {"type":
+    "double", "name": "DD2", "required": true}, {"type": "double", "name": "TD3",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-02 19:17:46.676289'

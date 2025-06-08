@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/640838693317858375
+creation_time: 1748871968672
+experiment_id: '640838693317858375'
+last_update_time: 1748871968672
+lifecycle_stage: active
+name: nba_all_team_pred

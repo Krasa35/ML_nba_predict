@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1b22ad02a5094a5cad7f7ad3bbad076f/artifacts
+end_time: 1748780589643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b22ad02a5094a5cad7f7ad3bbad076f
+run_name: painted-gull-249
+run_uuid: 1b22ad02a5094a5cad7f7ad3bbad076f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748780583845
+status: 4
+tags: []
+user_id: krasa-35

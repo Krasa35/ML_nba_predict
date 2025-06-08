@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/376582279783256409/d626debbf95848e49e3f7638972bf711/artifacts
+end_time: 1748885597468
+entry_point_name: ''
+experiment_id: '376582279783256409'
+lifecycle_stage: active
+run_id: d626debbf95848e49e3f7638972bf711
+run_name: different_model_best_model
+run_uuid: d626debbf95848e49e3f7638972bf711
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748885593954
+status: 3
+tags: []
+user_id: krasa-35

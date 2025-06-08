@@ -1,0 +1,21 @@
+artifact_path: CORRELATION_standardPlayers_NBA
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.22.0
+model_size_bytes: 1260
+model_uuid: e448587e26224c749a7fbf89bf590816
+prompts: null
+run_id: dff34a8f0c304ef8abd6890cefc99137
+utc_time_created: '2025-06-05 18:33:38.368270'

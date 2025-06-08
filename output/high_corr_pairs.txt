@@ -1,0 +1,7 @@
+Feature pairs with correlation magnitude > 0.9
+Found 5 highly correlated pairs:
+3P_totadv & 3P_per_game: 0.918
+PER & BPM: 0.926
+3PAr & % of FGA by Distance_3P: 1.000
+DRB% & TRB%: 0.904
+OWS & WS: 0.907

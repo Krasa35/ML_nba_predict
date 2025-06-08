@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/411372516321915595/cf898c3e1f814e24b8d04218f2d9862a/artifacts
+end_time: 1749315179769
+entry_point_name: ''
+experiment_id: '411372516321915595'
+lifecycle_stage: active
+run_id: cf898c3e1f814e24b8d04218f2d9862a
+run_name: <class 'skopt.searchcv.BayesSearchCV'>_<class 'sklearn.ensemble._forest.RandomForestClassifier'>_best_model
+run_uuid: cf898c3e1f814e24b8d04218f2d9862a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749315176280
+status: 3
+tags: []
+user_id: krasa-35

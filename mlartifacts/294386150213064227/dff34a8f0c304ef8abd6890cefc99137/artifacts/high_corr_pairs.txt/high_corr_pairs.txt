@@ -1,0 +1,3 @@
+Feature pairs with correlation magnitude > 0.9
+Found 1 highly correlated pairs:
+2P% & FG% by Distance_2P: 1.000

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/376582279783256409/31e604bab1c349bea095a6b448a9474a/artifacts
+end_time: 1749157909500
+entry_point_name: ''
+experiment_id: '376582279783256409'
+lifecycle_stage: active
+run_id: 31e604bab1c349bea095a6b448a9474a
+run_name: BayesianWithGradientBoosting_best_model
+run_uuid: 31e604bab1c349bea095a6b448a9474a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749157905809
+status: 3
+tags: []
+user_id: krasa-35

@@ -1,0 +1,13 @@
+Feature pairs with correlation magnitude > 0.9
+Found 11 highly correlated pairs:
+G & GS: 0.951
+STL_totadv & STL%: 0.932
+STL_totadv & STL_per_game: 0.953
+PF_totadv & PF_per_game: 0.909
+ORB% & ORB_per_game: 0.987
+DRB% & TRB_per_game: 0.962
+AST% & AST_per_game: 0.982
+STL% & STL_per_game: 0.981
+BLK% & BLK_per_game: 0.980
+USG% & PTS_per_game: 0.910
+PS/G_team & PA/G_team: 0.924

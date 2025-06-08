@@ -1,0 +1,1 @@
+{'custom': <function custom_score_func at 0x76faf3f863e0>, 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

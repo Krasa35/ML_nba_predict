@@ -1,0 +1,14 @@
+{'custom': functools.partial(<function custom_score_func at 0x7c30b18ce0c0>, record=                   0
+0       Aaron Brooks
+1       Aaron Gordon
+2     Aaron Harrison
+3      Adreian Payne
+4         Al Horford
+...              ...
+2176   Yuta Watanabe
+2177    Zach Collins
+2178     Zach LaVine
+2179      Zeke Nnaji
+2180  Zylan Cheatham
+
+[2181 rows x 1 columns]), 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

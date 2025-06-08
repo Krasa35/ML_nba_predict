@@ -1,0 +1,14 @@
+{'custom': functools.partial(<function custom_score_func at 0x75050fe86020>, record=                      0
+0         Aaron Jackson
+1           Abdel Nader
+2           Alec Peters
+3           Alex Caruso
+4      Alfonzo McKinnie
+..                  ...
+643       Tyrese Martin
+644  Vince Williams Jr.
+645      Walker Kessler
+646   Wendell Moore Jr.
+647        Xavier Cooks
+
+[648 rows x 1 columns]), 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

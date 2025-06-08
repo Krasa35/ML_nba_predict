@@ -1,0 +1,6 @@
+Feature pairs with correlation magnitude > 0.9
+Found 4 highly correlated pairs:
+FG% & TS%: 0.912
+2P% & FG% by Distance_2P: 1.000
+STL_totadv & MP: 0.900
+MP_per_game & FG_per_game: 0.901

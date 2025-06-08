@@ -1,0 +1,75 @@
+digest: f0101a74
+name: input_data
+profile: '{"num_rows": 471, "num_elements": 47571}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Age", "required": true}, {"type":
+  "long", "name": "Team", "required": true}, {"type": "long", "name": "Pos", "required":
+  true}, {"type": "long", "name": "G", "required": true}, {"type": "long", "name":
+  "GS", "required": true}, {"type": "long", "name": "MP_totadv", "required": true},
+  {"type": "long", "name": "FG_totadv", "required": true}, {"type": "long", "name":
+  "FGA_totadv", "required": true}, {"type": "long", "name": "FG%", "required": true},
+  {"type": "long", "name": "3P_totadv", "required": true}, {"type": "long", "name":
+  "3PA_totadv", "required": true}, {"type": "long", "name": "3P%", "required": true},
+  {"type": "long", "name": "2P_totadv", "required": true}, {"type": "long", "name":
+  "2PA_totadv", "required": true}, {"type": "long", "name": "2P%", "required": true},
+  {"type": "long", "name": "eFG%", "required": true}, {"type": "long", "name": "FT_totadv",
+  "required": true}, {"type": "long", "name": "FTA_totadv", "required": true}, {"type":
+  "long", "name": "FT%", "required": true}, {"type": "long", "name": "ORB_totadv",
+  "required": true}, {"type": "long", "name": "DRB_totadv", "required": true}, {"type":
+  "long", "name": "TRB_totadv", "required": true}, {"type": "long", "name": "AST_totadv",
+  "required": true}, {"type": "long", "name": "STL_totadv", "required": true}, {"type":
+  "long", "name": "BLK_totadv", "required": true}, {"type": "long", "name": "TOV_totadv",
+  "required": true}, {"type": "long", "name": "PF_totadv", "required": true}, {"type":
+  "long", "name": "PTS_totadv", "required": true}, {"type": "long", "name": "Trp-Dbl",
+  "required": true}, {"type": "long", "name": "Awards", "required": true}, {"type":
+  "long", "name": "Rk_advanced", "required": true}, {"type": "long", "name": "PER",
+  "required": true}, {"type": "long", "name": "TS%", "required": true}, {"type": "long",
+  "name": "3PAr", "required": true}, {"type": "long", "name": "FTr", "required": true},
+  {"type": "long", "name": "ORB%", "required": true}, {"type": "long", "name": "DRB%",
+  "required": true}, {"type": "long", "name": "TRB%", "required": true}, {"type":
+  "long", "name": "AST%", "required": true}, {"type": "long", "name": "STL%", "required":
+  true}, {"type": "long", "name": "BLK%", "required": true}, {"type": "long", "name":
+  "TOV%", "required": true}, {"type": "long", "name": "USG%", "required": true}, {"type":
+  "long", "name": "OWS", "required": true}, {"type": "long", "name": "DWS", "required":
+  true}, {"type": "long", "name": "WS", "required": true}, {"type": "long", "name":
+  "WS/48", "required": true}, {"type": "long", "name": "OBPM", "required": true},
+  {"type": "long", "name": "DBPM", "required": true}, {"type": "long", "name": "BPM",
+  "required": true}, {"type": "long", "name": "VORP", "required": true}, {"type":
+  "long", "name": "Rk_totadvpg", "required": true}, {"type": "long", "name": "MP_per_game",
+  "required": true}, {"type": "long", "name": "FG_per_game", "required": true}, {"type":
+  "long", "name": "FGA_per_game", "required": true}, {"type": "long", "name": "3P_per_game",
+  "required": true}, {"type": "long", "name": "3PA_per_game", "required": true}, {"type":
+  "long", "name": "2P_per_game", "required": true}, {"type": "long", "name": "2PA_per_game",
+  "required": true}, {"type": "long", "name": "FT_per_game", "required": true}, {"type":
+  "long", "name": "FTA_per_game", "required": true}, {"type": "long", "name": "ORB_per_game",
+  "required": true}, {"type": "long", "name": "DRB_per_game", "required": true}, {"type":
+  "long", "name": "TRB_per_game", "required": true}, {"type": "long", "name": "AST_per_game",
+  "required": true}, {"type": "long", "name": "STL_per_game", "required": true}, {"type":
+  "long", "name": "BLK_per_game", "required": true}, {"type": "long", "name": "TOV_per_game",
+  "required": true}, {"type": "long", "name": "PF_per_game", "required": true}, {"type":
+  "long", "name": "PTS_per_game", "required": true}, {"type": "long", "name": "Rk_shooting",
+  "required": true}, {"type": "long", "name": "MP", "required": true}, {"type": "long",
+  "name": "Dist.", "required": true}, {"type": "long", "name": "% of FGA by Distance_2P",
+  "required": true}, {"type": "long", "name": "% of FGA by Distance_0-3", "required":
+  true}, {"type": "long", "name": "% of FGA by Distance_3-10", "required": true},
+  {"type": "long", "name": "% of FGA by Distance_10-16", "required": true}, {"type":
+  "long", "name": "% of FGA by Distance_16-3P", "required": true}, {"type": "long",
+  "name": "% of FGA by Distance_3P", "required": true}, {"type": "long", "name": "FG%
+  by Distance_2P", "required": true}, {"type": "long", "name": "FG% by Distance_0-3",
+  "required": true}, {"type": "long", "name": "FG% by Distance_3-10", "required":
+  true}, {"type": "long", "name": "FG% by Distance_10-16", "required": true}, {"type":
+  "long", "name": "FG% by Distance_16-3P", "required": true}, {"type": "long", "name":
+  "FG% by Distance_3P", "required": true}, {"type": "long", "name": "% of FG Ast''d_2P",
+  "required": true}, {"type": "long", "name": "% of FG Ast''d_3P", "required": true},
+  {"type": "long", "name": "Dunks_%FGA", "required": true}, {"type": "long", "name":
+  "Dunks_#", "required": true}, {"type": "long", "name": "Corner 3s_%3PA", "required":
+  true}, {"type": "long", "name": "Corner 3s_3P%", "required": true}, {"type": "long",
+  "name": "Heaves_Att.", "required": true}, {"type": "long", "name": "Heaves_Md.",
+  "required": true}, {"type": "long", "name": "Team_team", "required": true}, {"type":
+  "long", "name": "W_team", "required": true}, {"type": "long", "name": "L_team",
+  "required": true}, {"type": "long", "name": "W/L%_team", "required": true}, {"type":
+  "long", "name": "GB_team", "required": true}, {"type": "long", "name": "PS/G_team",
+  "required": true}, {"type": "long", "name": "PA/G_team", "required": true}, {"type":
+  "long", "name": "SRS_team", "required": true}]}'
+source: '{"tags": {"mlflow.user": "krasa-35", "mlflow.source.name": "/home/krasa-35/ws/RiSA/WZUM/Project/main.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

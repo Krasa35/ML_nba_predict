@@ -1,0 +1,36 @@
+digest: fd649dcc
+name: input_data
+profile: '{"num_rows": 471, "num_elements": 20253}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age", "required": true},
+  {"type": "double", "name": "G", "required": true}, {"type": "double", "name": "GS",
+  "required": true}, {"type": "double", "name": "FG%", "required": true}, {"type":
+  "double", "name": "3P_totadv", "required": true}, {"type": "double", "name": "3PA_totadv",
+  "required": true}, {"type": "double", "name": "3P%", "required": true}, {"type":
+  "double", "name": "eFG%", "required": true}, {"type": "double", "name": "FT%", "required":
+  true}, {"type": "double", "name": "PF_totadv", "required": true}, {"type": "double",
+  "name": "Trp-Dbl", "required": true}, {"type": "double", "name": "PER", "required":
+  true}, {"type": "double", "name": "TS%", "required": true}, {"type": "double", "name":
+  "3PAr", "required": true}, {"type": "double", "name": "FTr", "required": true},
+  {"type": "double", "name": "ORB%", "required": true}, {"type": "double", "name":
+  "DRB%", "required": true}, {"type": "double", "name": "AST%", "required": true},
+  {"type": "double", "name": "STL%", "required": true}, {"type": "double", "name":
+  "BLK%", "required": true}, {"type": "double", "name": "TOV%", "required": true},
+  {"type": "double", "name": "USG%", "required": true}, {"type": "double", "name":
+  "OWS", "required": true}, {"type": "double", "name": "DWS", "required": true}, {"type":
+  "double", "name": "WS/48", "required": true}, {"type": "double", "name": "DBPM",
+  "required": true}, {"type": "double", "name": "BPM", "required": true}, {"type":
+  "double", "name": "VORP", "required": true}, {"type": "double", "name": "MP_per_game",
+  "required": true}, {"type": "double", "name": "ORB_per_game", "required": true},
+  {"type": "double", "name": "DRB_per_game", "required": true}, {"type": "double",
+  "name": "TRB_per_game", "required": true}, {"type": "double", "name": "AST_per_game",
+  "required": true}, {"type": "double", "name": "STL_per_game", "required": true},
+  {"type": "double", "name": "BLK_per_game", "required": true}, {"type": "double",
+  "name": "TOV_per_game", "required": true}, {"type": "double", "name": "PF_per_game",
+  "required": true}, {"type": "double", "name": "PTS_per_game", "required": true},
+  {"type": "double", "name": "MP", "required": true}, {"type": "double", "name": "Dist.",
+  "required": true}, {"type": "double", "name": "Dunks_#", "required": true}, {"type":
+  "double", "name": "Heaves_Att.", "required": true}, {"type": "double", "name": "Heaves_Md.",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "krasa-35", "mlflow.source.name": "/home/krasa-35/ws/RiSA/WZUM/Project/main.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

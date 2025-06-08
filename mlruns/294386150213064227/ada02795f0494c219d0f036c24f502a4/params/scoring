@@ -1,0 +1,14 @@
+{'custom': functools.partial(<function custom_score_func at 0x7bc0d4e520c0>, record=                    0
+0    Donovan Mitchell
+1         Ben Simmons
+2          Kyle Kuzma
+3        Jayson Tatum
+4    Dennis Smith Jr.
+..                ...
+558        Ade Murkey
+559     Jaysean Paige
+560    Trayvon Palmer
+561         Jon Teske
+562       M.J. Walker
+
+[563 rows x 1 columns]), 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

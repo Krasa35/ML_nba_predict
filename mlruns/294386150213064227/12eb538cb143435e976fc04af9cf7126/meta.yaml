@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294386150213064227/12eb538cb143435e976fc04af9cf7126/artifacts
+end_time: 1749148675631
+entry_point_name: ''
+experiment_id: '294386150213064227'
+lifecycle_stage: active
+run_id: 12eb538cb143435e976fc04af9cf7126
+run_name: CORRELATION_allNBATeam_NBA
+run_uuid: 12eb538cb143435e976fc04af9cf7126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749148671722
+status: 3
+tags: []
+user_id: krasa-35

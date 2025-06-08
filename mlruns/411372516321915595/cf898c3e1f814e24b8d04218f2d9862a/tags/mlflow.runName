@@ -1,0 +1,1 @@
+<class 'skopt.searchcv.BayesSearchCV'>_<class 'sklearn.ensemble._forest.RandomForestClassifier'>_best_model

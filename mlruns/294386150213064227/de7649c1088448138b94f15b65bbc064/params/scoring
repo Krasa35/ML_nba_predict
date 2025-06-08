@@ -1,0 +1,14 @@
+{'custom': functools.partial(<function custom_score_func at 0x714026baa0c0>, record=                    0
+0       Aaron Jackson
+1         Abdel Nader
+2         Alec Peters
+3         Alex Caruso
+4    Alfonzo McKinnie
+..                ...
+558       Xavier Moon
+559      Xavier Sneed
+560         Yves Pons
+561    Zavier Simpson
+562   Ziaire Williams
+
+[563 rows x 1 columns]), 'recall_macro': make_scorer(recall_score, response_method='predict', average=macro)}

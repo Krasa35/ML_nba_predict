@@ -1,0 +1,13 @@
+Feature pairs with correlation magnitude > 0.9
+Found 11 highly correlated pairs:
+G & Rk_shooting: 0.916
+FG% & TS%: 0.912
+3P% & FG% by Distance_3P: 1.000
+STL_totadv & MP: 0.900
+MP_per_game & FG_per_game: 0.901
+MP_per_game & FGA_per_game: 0.913
+FG_per_game & FGA_per_game: 0.969
+FG_per_game & 2P_per_game: 0.947
+FT_per_game & FTA_per_game: 0.972
+DRB_per_game & TRB_per_game: 0.968
+Rk_shooting & MP: 0.959
