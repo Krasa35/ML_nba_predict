@@ -4,6 +4,8 @@ import mlflow.sklearn
 from lib.nba_dataset import load_nba, load_rookies, filter_dataset
 from lib.check_score import calculate_score
 from lib.metric import get_weighted_team_predictions
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, recall_score
 
 def na_func(col):
     if col.dropna().empty:
@@ -12,7 +14,7 @@ def na_func(col):
 
 mlflow.set_tracking_uri("http://127.0.0.1:8080")
 
-allNBA_model_uri = 'runs:/cba474a6f5bf4351afd7273a0a7df40a/BayesSearchCV_RandomForestClassifier'
+allNBA_model_uri = 'runs:/d94e587a6b0d4d088ed0b4fb106a5139/BayesSearchCV_RandomForestClassifier'
 allNBA_model = mlflow.sklearn.load_model(allNBA_model_uri)
 
 nba_players = load_nba('2025')
@@ -27,8 +29,11 @@ results_dict_allNBA, true_results_dict_allNBA, players_team_allNBA, true_team_al
     probs, nba_players.target, nba_players.record
 )
 
-
-
+cm_plot, ax = plt.subplots()
+cm = confusion_matrix(true_team_allNBA, players_team_allNBA, labels=[1, 2, 3])
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=[1, 2, 3])
+disp.plot(ax=ax)
+plt.show()
 
 
 rookies_model_uri = 'runs:/6b70ca74cb354731bc0d99c4b79b05ca/BayesSearchCV_GradientBoostingClassifier'
